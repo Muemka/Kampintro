@@ -1,0 +1,14 @@
+﻿using System;
+
+namespace GenericsInfo
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            MyList <string> isimler = new MyList<string>();
+            isimler.Add("Emre");
+            Console.WriteLine("Hello World!");
+        }
+    }
+}
